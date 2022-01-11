@@ -22,21 +22,31 @@
 # print(my_taxes)
 
 # python strings
-string_one = "hello"
-string_two = 'world'
-string_three = string_one + " " + string_two
-print(f"{string_one} {string_two}")
-print(f"{string_one} \n{string_two}")
-print(f"{string_one} \t{string_two}")
-print(len(string_one))
-print(string_three)
-# indexing
-print(string_three[0])
-print(string_three[-3])
-# slicing
-print(string_three[6:])
-print(string_three[:4])
-print(string_three[2:9])
-# step size
-print(string_three[::2])
-print(string_three[::-1])
+# string_one = "hello"
+# string_two = 'world'
+# string_three = string_one + " " + string_two
+# print(f"{string_one} {string_two}")
+# print(f"{string_one} \n{string_two}")
+# print(f"{string_one} \t{string_two}")
+# print(len(string_one))
+# print(string_three)
+# # indexing
+# print(string_three[0])
+# print(string_three[-3])
+# # slicing
+# print(string_three[6:])
+# print(string_three[:4])
+# print(string_three[2:9])
+# # step size
+# print(string_three[::2])
+# print(string_three[::-1])
+
+# immutability
+name = "Jorge"
+last_letters = name[1:]
+print(last_letters)
+print("j" + last_letters)
+letter = "y"
+print(letter * 5)
+print(name.upper())
+print(name.split("r"))
