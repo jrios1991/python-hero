@@ -90,13 +90,13 @@
 # t = (1,2,3)
 
 # Sets
-# my_set = set()
-# my_set.add(1)
-# print(my_set)
-# my_set.add(2)
-# print(my_set)
-# my_list = [1,1,1,1,2,2,2,2,3,3,3,3,3]
-# print(set(my_list))
+my_set = set()
+my_set.add(1)
+print(my_set)
+my_set.add(2)
+print(my_set)
+my_list = [1,1,1,1,2,2,2,2,3,3,3,3,3]
+print(set(my_list))
 
 # myfile = open('myfile.txt')
 # contents = myfile.read()
@@ -112,6 +112,12 @@
 # with open('myfile.txt') as my_file:
 #     contents = my_file.read()
 #     print(contents)
-with open('myfile.txt', mode='r') as my_file1:
-    contents = my_file1.read()
-    print(contents)
+# with open('myfile.txt', mode='a') as my_file1:
+#     my_file1.write("\nYOOOO I'm writing to this file")
+
+# with open('myfile.txt', mode='r') as my_file:
+#     contents = my_file.read()
+#     print(contents)
+
+# with open('newfile.txt', mode='w') as file:
+#     file.write("I made a new file")
