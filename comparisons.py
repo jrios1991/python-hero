@@ -1,2 +1,12 @@
 # Comparisons
 print(2==2)
+print(2 == 1)
+print('hello' == 'bye')
+print('Hello' == 'hello')
+print('2' == 2)
+print(2.0 == 2)
+print(3 != 3)
+print(2>1)
+print(1<2)
+print(2<=2)
+print(3>=1)
